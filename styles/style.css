@@ -1,0 +1,125 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.btn-1{
+    background-color: #E6533C;
+    border-radius: 42px;
+    padding: 16px 40px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-btn{
+    background-color: #E6533C;
+    border-radius: 42px;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-2{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 42px;
+    padding: 16px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar,
+.banner{
+    max-width: 1060px;
+    margin: auto;
+}
+
+/* banner */
+.bg{
+    background-image: linear-gradient(#111111, #000000d0, #111111);
+    padding-top: 60px;
+}
+
+
+.brand{
+    color: #E6533C;
+    font-weight: bolder;
+    font-size: 36px;
+    font-style: italic;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 47px;
+    align-items: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 42px;
+    padding: 4px;
+}
+
+.banner{
+    display: flex;
+}
+
+img{
+    margin-top: 32px;
+}
+
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+    margin-top: 96px;
+}
+
+.banner-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.special-title{
+    color: #E6533C;
+}
+
+.button{
+    display: flex;
+    gap: 14px;
+}
+
+.about{
+    margin-right: 20px;
+}
