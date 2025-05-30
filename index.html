@@ -68,7 +68,7 @@
     </header>
     <main class="main">
         <!-- habit section -->
-        <section class="habit">
+        <section class="habit mbl">
             <!-- text item -->
             <div class="text-habit">
                 <h3 class="habit-title">Change Your Habits</h3>
@@ -114,7 +114,7 @@
             </div>
         </section>
         <!-- training section -->
-        <section class="training hide">
+        <section class="training mbl">
             <!-- text item -->
             <div>
                 <h3 class="training-title">Trainings and Exercises</h3>
@@ -122,80 +122,84 @@
                     income or access to a gym.</p>
             </div>
             <!-- grid layout -->
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="images/exercise1.jpg" alt="Workout 1">
-                    <span class="caption">Lorem Ipsum</span>
-                </div>
-                <div class="grid-item">
-                    <img src="images/exercise2.png" alt="Workout 2">
-                    <span class="caption">Lorem Ipsum</span>
-                </div>
-                <div class="grid-item">
-                    <img src="images/exercise3.png" alt="Workout 3">
-                    <span class="caption">Leg Press: Works the quadriceps and glutes</span>
-                </div>
-                <div class="grid-item">
-                    <img src="images/exercise4.png" alt="Workout 4">
-                    <span class="caption">Leg Press: Works the quadriceps and glutes</span>
-                </div>
-                <div class="grid-item">
-                    <img src="images/exercise5.jpg" alt="Workout 5">
-                    <span class="caption">Leg Press: Works the quadriceps and glutes</span>
-                </div>
-                <div class="grid-item">
-                    <img src="images/exercise6.jpg" alt="Workout 6">
-                    <span class="caption">Leg Press: Works the quadriceps and glutes</span>
+            <div class="training-grid-container">
+                <div class="grid-train">
+                    <div class="row">
+                        <img src="images/exercise1.jpg" alt="Workout 1">
+                        <!-- <span class="caption">Lorem Ipsum</span> -->
+                        <img src="images/exercise2.png" alt="Workout 2">
+                        <!-- <span class="caption">Lorem Ipsum</span> -->
+                        <img src="images/exercise3.png" alt="Workout 3">
+                        <!-- <span class="caption">Leg Press: Works the quadriceps and glutes</span> -->
+                    </div>
+                    <div class="row">
+                        <img src="images/exercise4.png" alt="Workout 4">
+                        <!-- <span class="caption">Leg Press: Works the quadriceps and glutes</span> -->
+                        <img src="images/exercise5.jpg" alt="Workout 5">
+                        <!-- <span class="caption">Leg Press: Works the quadriceps and glutes</span> -->
+                        <img src="images/exercise6.jpg" alt="Workout 6">
+                        <!-- <span class="caption">Leg Press: Works the quadriceps and glutes</span> -->
+                    </div>
                 </div>
             </div>
         </section>
         <!-- BMI section -->
         <section>
-            <div class="bmi-head">
+            <div class="bmi-head mbl">
                 <h3>BMI Calculator</h3>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
                     gym.
                 </p>
             </div>
-        </section>
-        <section class="secondary-bg bmi-flex hide">
-            <div class="bmi-table">
-                <h3 class="bmi-title">BMI Calculator Chart</h3>
-                <table>
-                    <tr>
-                        <th>BMI</th>
-                        <th>Weight Status</th>
-                    </tr>
-                    <tr>
-                        <td>Below 18.5</td>
-                        <td>Underweight</td>
-                    </tr>
-                    <tr>
-                        <td>18.5 - 24.9</td>
-                        <td>Healthy</td>
-                    </tr>
-                    <tr>
-                        <td>25.0 - 29.9</td>
-                        <td>Overweight</td>
-                    </tr>
-                    <tr>
-                        <td>30.0 - and Above</td>
-                        <td>Obese</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="bmi-input">
-                <h3 class="bmi-title">Calculate your BMI</h3>
-                <p class="bmi-sub">We believe fitness should be accessible to everyone, everywhere, regardless of income
-                    or access to a gym. </p>
-                <div>
-
+            <!-- bmi container -->
+            <div>
+                <!-- bmi chart -->
+                <div class="secondary-bg">
+                    <div class="chart bmi-flex">
+                        <div>
+                            <h3 class="bmi-title">BMI Calculator Chart</h3>
+                            <table>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="bmi-calc">
+                            <h3 class="bmi-title">Calculate your BMI</h3>
+                            <p class="bmi-sub">We believe fitness should be accessible to everyone, everywhere,
+                                regardless of income or access to a gym. </p>
+                            <div class="calc-container calc">
+                                <input type="text" value="" placeholder="Height/cm">
+                                <input type="text" value="" placeholder="Weight/kg">
+                                <input type="text" value="" placeholder="Age">
+                                <input type="text" value="" placeholder="Sex">
+                                <input id="factor" type="text" value="" placeholder="Select an activity factor">
+                            </div>
+                            <button class="btn-1">Calculate</button>
+                        </div>
+                    </div>
                 </div>
-                <button class="btn-1">Calculate</button>
             </div>
         </section>
         <!-- team section -->
-        <section>
+        <section class="mbl">
             <div class="team-container">
                 <!-- text section -->
                 <div class="team">
